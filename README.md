@@ -1,0 +1,2 @@
+# iot-garage - управление гаражом через интернет
+Management of relay channels in the garage, receiving indications from sensors and the ability to transfer them to narodmon.ru. To work, you need an http server. The program in arduino sends a get request to the server, it takes the values from the sensors, and in response, it returns a string indicating that you want to turn it on or off. Ethernet -shield required
